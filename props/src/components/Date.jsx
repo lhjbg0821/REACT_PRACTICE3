@@ -14,9 +14,9 @@ function Date(props) {
         {props.date}
       </div>
 
-      <ul className="p-2 text-lg h-20">
+      <ul className="p-2 text-lg min-h-20">
         {props.todos.map((v, i) => {
-          return <li>{v}</li>;
+          return <li className="truncate">{v}</li>;
         })}
       </ul>
       {/* <ul className="p-2 text-lg">
