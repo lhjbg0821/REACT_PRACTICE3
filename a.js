@@ -1,16 +1,11 @@
-const myProfile = {
-  nickName: "ollok_99",
-  age: 25,
-  job: "student",
-  isGenius: true,
-};
+let age = 26;
 
-const ollok_00 = {
-  nickName: "ollok_00",
-};
+// let beverage = age >= 20 ? "Beer" : "Coke?";
+let beverage = age >= 20 ? "Beer" : "Coke?";
+console.log(beverage);
 
-const { nickName } = myProfile;
-const { nickName: newnickName } = ollok_00;
-
-console.log(nickName);
-console.log(myProfile.nickName);
+if (age >= 20) {
+  beverage = "Beer";
+} else {
+  beverage = "Coke";
+}
